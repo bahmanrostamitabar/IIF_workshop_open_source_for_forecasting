@@ -1,30 +1,37 @@
 ---
 title: "Proposal for an IIF workshop on Open Source for Forecasting"
-format: html
+format:
+  html: default
+  memo-pdf: default
 ---
 
-In the field of forecasting, the use of open-source software such as R, Python, and Julia has become increasingly dominant throughout the entire forecasting workflow. These tools have played a pivotal role in democratizing access to advanced forecasting capabilities. To capitalize on the potential of these open-source solutions, we are delighted to propose a dynamic and enriching IIF sponsored workshop  on open-source for forecasting to be held on June 24-28, 2023.
+In the field of forecasting, the use of open-source software such as R, Python, and Julia has become increasingly dominant throughout the entire forecasting workflow. These tools have played a pivotal role in democratizing access to advanced forecasting capabilities. To capitalize on the potential of these open-source solutions, we are delighted to propose a dynamic and enriching IIF sponsored workshop on open-source software for forecasting to be held on June 24-28, 2023.
 
 
 ```{r label, echo=FALSE}
 library(kableExtra)
+options(knitr.kable.NA = '')
 tibble::tribble(
   ~a, ~b,
-  "Proposed date", "24-28 June 2023", 
-  "Venue", "TBC(University of Montpelier, France or Cardiff University UK)",
+  "Proposed date", "24-28 June 2023",
+  "Venue", "TBC (University of Montpelier, France or Cardiff University UK)",
   "Number of expected participants", "40",
   "Travel and accommodation support",	"for 15 participants"
-) |> kable(col.names = NULL) |> kable_classic()
+) |>
+  kable(col.names = NULL, booktabs = TRUE) |>
+  kable_classic()
 ```
 
 ```{r fee, echo=FALSE}
 library(kableExtra)
 tibble::tribble(
   ~a, ~b,
-  "PhD student", "$150", 
+  "PhD student", "$150",
   "Academic", "$300",
   "Participants from outside of academia", "$450",
-) |> kable(col.names = NULL,caption ="Course fee") |> kable_styling()
+) |>
+  kable(col.names = NULL, caption = "Course fee", booktabs = TRUE) |>
+  kable_styling()
 ```
 
 ## Organizing committee
@@ -40,17 +47,17 @@ tibble::tribble(
 
 ## Workshop aim
 
-During this 5-day workshop, our focus will be on exploring the most recent advancements and advanced capabilities within open-source forecasting software. Furthermore, we will engage in discussions about the future possibilities of these tools. Our main goal is to empower participants by enhancing their skillsets and providing a deeper understanding of the current opportunities. Through fostering conversations on best practices and recognizing potential areas for improvement, we aim to facilitate research collaboration and foster partnerships with open-source software developers.
+During this 5-day workshop, our focus will be on exploring the most recent advancements and advanced capabilities within open-source forecasting software. Furthermore, we will engage in discussions about the future possibilities of these tools. Our main goal is to empower participants by enhancing their skill-sets and providing a deeper understanding of the current opportunities. Through fostering conversations on best practices, and recognizing potential areas for improvement, we aim to facilitate research collaboration and foster partnerships with open-source software developers.
 
 ## Key features of the workshop
 
-- This workshop aims to bring together approximately 40 participants, including both authors and users of forecasting software packages from academia and practical fields. This diverse gathering will create an ideal platform for knowledge exchange and valuable insights.
+- This workshop aims to bring together approximately 40 participants, including both authors and users of forecasting software packages, from academia and practical fields. This diverse gathering will create an ideal platform for knowledge exchange and valuable insights.
 
-- Participants will gain valuable insights into the latest advancements in open-source forecasting tools and how these innovations can  forecasting techniques and enhance decision-making processes.
+- Participants will gain valuable insights into the latest advancements in open-source forecasting tools and how these innovations can support forecasting methodology and enhance decision-making processes.
 
 - Engaging tutorials will be delivered on advanced topics related to forecasting. Through hands-on sessions, participants will have the opportunity to apply their learning to real-world scenarios.
 
-- The workshop seeks to foster a collaborative environment that encourages research and software development partnerships among attendees. 
+- The workshop seeks to foster a collaborative environment that encourages research and software development partnerships among attendees.
 
 - Networking sessions will encourage lively discussions and provide a platform for participants to share their experiences, challenges, and success stories.
 
@@ -66,7 +73,7 @@ Furthermore, we introduce daily open discussion sessions on "open problems." The
 
 - Open-source software design
 - Forecasting applications
-- Machine learning and AI approaches 
+- Machine learning and AI approaches
 - Reproducible forecasting workflow
 - Communicating uncertainty in forecasting
 - Future developments in open-source for forecasting
@@ -75,7 +82,7 @@ Furthermore, we introduce daily open discussion sessions on "open problems." The
 
 ### Keynote speakers
 
-- Max Kuhn 
+- Max Kuhn
 - Who else
 
 ### 24 June 2024
@@ -84,11 +91,11 @@ Furthermore, we introduce daily open discussion sessions on "open problems." The
 
 - 9.30am – 10.30am. Keynote 1
 - 10.30am – 11.00am. Morning tea
-- 11.00am – 12.30pm. 2 presenters 
+- 11.00am – 12.30pm. 2 presenters
 - 12.30pm – 1.30pm. Lunch
-- 1.30pm – 3.00pm. 2 presenters 
+- 1.30pm – 3.00pm. 2 presenters
 - 3.00pm – 3.30pm. Afternoon tea
-- 3.30pm – 5.00pm. 2 presenters 
+- 3.30pm – 5.00pm. 2 presenters
 
 ### 25 June 2024
 
@@ -96,17 +103,17 @@ Furthermore, we introduce daily open discussion sessions on "open problems." The
 
 - 9.30am – 10.30am. Keynote 2
 - 10.30am – 11.00am. Morning tea
-- 11.00am – 12.30pm. 2 presenters 
+- 11.00am – 12.30pm. 2 presenters
 - 12.30pm – 1.30pm. Lunch
-- 1.30pm – 3.00pm. 2 presenters 
+- 1.30pm – 3.00pm. 2 presenters
 - 3.00pm – 3.30pm. Afternoon tea
-- 3.30pm – 5.00pm. 2 presenters 
+- 3.30pm – 5.00pm. 2 presenters
 
 ### 26 June 2024
 
 **Tutorial 1**
 
-- 9.00am – 10.30am. tutorial 1 
+- 9.00am – 10.30am. tutorial 1
 - 10.30am – 11.00am. Morning tea
 - 11.00am – 12.30pm. tutorial 2
 - 12.30pm – 1.30pm. Lunch
@@ -130,11 +137,11 @@ Furthermore, we introduce daily open discussion sessions on "open problems." The
 
 **Open problems and future developments**
 
-- 9.00am – 10.30am. 2 presenters 
+- 9.00am – 10.30am. 2 presenters
 - 10.30am – 11.00am. Morning tea
-- 11.00am – 12.30pm. 2 presenters 
+- 11.00am – 12.30pm. 2 presenters
 - 12.30pm – 1.30pm. Lunch
-- 1.30pm – 3.00pm. 2 presenters 
+- 1.30pm – 3.00pm. 2 presenters
 - 3.00pm – 3.30pm. Afternoon tea
 - 3.30pm – 5.00pm. 2 presenters
 
@@ -145,7 +152,7 @@ The workshop is aimed at Ph.D. students, researchers and practitioners within fo
 
 We offer places for participants from all over the world.
 
-We can accommodate ~40 participants. Selection criteria include correct entry requirements, motivation to attend the course as well as gender and geographical balance. 
+We can accommodate ~40 participants. Selection criteria include correct entry requirements, motivation to attend the course as well as gender and geographical balance.
 
 
 ## Budget
@@ -161,12 +168,14 @@ tibble::tribble(
   "Travel and accommodation support: European speakers", 10, 500,5000,
   "Travel and accommodation support: European speakers", 6, 1000,6000,
   "Travel and accommodation support: other speakers", 4, 1500,6000,
-  "Total", NULL, NULL,24200,
-) |> kable() |> kable_classic()
+  "Total", NA, NA,24200,
+) |>
+  kable(booktabs = TRUE) |>
+  kable_classic()
 ```
 
-We expect to have `$5000` income from the workshop fee, therefore	we are requesting a grant of `$19,200` from the IIF towards the costs of the running this workshop.
+We expect to have $5000 income from the workshop fee, therefore	we are requesting a grant of $19,200 from the IIF towards the costs of the running this workshop.
 
 ## Potential list of participants
 
-1. Rob J. Hyndman, 2. Ivan Svetunkov, 3. Bahman Rostami-Tabar 3. Mitchell O'Hara-Wild (ECR), 4. Tobiac Liboschik, 5. Daniele Girolimetto (ECR), 6. Dario Azzimonti, 7. Nickalus Redell, 8. Ronit Jaiswal. 9. Angelo Canty, 10. Jeffrey A. Ryan, 11. Paul-Christian Bürkner, 12. Mingzhi Shi (ECR), 13. Harsha Charma (ECR), 14. Resul Akay, 15. 
+1. Rob J. Hyndman, 2. Ivan Svetunkov, 3. Bahman Rostami-Tabar 3. Mitchell O'Hara-Wild (ECR), 4. Tobiac Liboschik, 5. Daniele Girolimetto (ECR), 6. Dario Azzimonti, 7. Nickalus Redell, 8. Ronit Jaiswal. 9. Angelo Canty, 10. Jeffrey A. Ryan, 11. Paul-Christian Bürkner, 12. Mingzhi Shi (ECR), 13. Harsha Charma (ECR), 14. Resul Akay, 15.
