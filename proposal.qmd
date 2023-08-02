@@ -1,14 +1,14 @@
 ---
 title: "Proposal for an IIF workshop on Open Source for Forecasting"
 format:
-  html: default
-  memo-pdf: default
+  memo-pdf:
+    fig-pos: 'H'
 ---
 
 In the field of forecasting, the use of open-source software such as R, Python, and Julia has become increasingly dominant throughout the entire forecasting workflow. These tools have played a pivotal role in democratizing access to advanced forecasting capabilities. To capitalize on the potential of these open-source solutions, we are delighted to propose a dynamic and enriching IIF sponsored workshop on open-source software for forecasting to be held on June 24-28, 2023.
 
 
-```{r label, echo=FALSE}
+```{r label, echo=FALSE, fig.pos='H'}
 library(kableExtra)
 options(knitr.kable.NA = '')
 tibble::tribble(
@@ -18,11 +18,12 @@ tibble::tribble(
   "Number of expected participants", "40",
   "Travel and accommodation support",	"for 15 participants"
 ) |>
-  kable(col.names = NULL, booktabs = TRUE) |>
-  kable_classic()
+  kable(col.names = NULL, booktabs = TRUE, caption = "Summary") |>
+  kable_classic() |> 
+  kable_styling(latex_options = "HOLD_position")
 ```
 
-```{r fee, echo=FALSE}
+```{r fee, echo=FALSE, fig.pos='H'}
 library(kableExtra)
 tibble::tribble(
   ~a, ~b,
@@ -31,18 +32,19 @@ tibble::tribble(
   "Participants from outside of academia", "$450",
 ) |>
   kable(col.names = NULL, caption = "Course fee", booktabs = TRUE) |>
-  kable_styling()
+  kable_styling(latex_options = "HOLD_position")
 ```
+
+
 
 ## Organizing committee
 
-- Bahman Rostami-Tabar
-- Ivan Svetunkov
-- Rob J Hyndman
-- Resul Akay
-- Someone from Python
-- LGBT
-- Female
+- Bahman Rostami-Tabar, Associate Professor in Data and Managemet Science, Cardiff University UK.
+- Ivan Svetunkov, Lecturer of Marketing Analytics, Lancaster University, UK.
+- Resul Akay, PhD student, University of Vienna \& CEO of Quantics.io, Austria.
+- Shanika Wickramasuriya, Lecturer in Statistics, University of Auckland, New Zealand.
+- Azul Garza, CTO & Co-Founde, Nixtla, Mexico.
+- Mitchell O'Hara-Wild, PhD student in Econometrics, Monash University,Australia.(??)
 
 
 ## Workshop aim
@@ -77,13 +79,46 @@ Furthermore, we introduce daily open discussion sessions on "open problems." The
 - Reproducible forecasting workflow
 - Communicating uncertainty in forecasting
 - Future developments in open-source for forecasting
+- More topics
+
+## Budget
+
+
+```{r budget, echo=FALSE, fig.pos="H"}
+library(kableExtra)
+tibble::tribble(
+  ~Expense, ~Number,~`Unit Price`,~Total,
+  "Catering", 40, 120,4800,
+  "Galla Dinner", 40, 60,2400,
+  "Travel and accommodation support: European speakers", 10, 500,5000,
+  "Travel and accommodation support: European speakers", 6, 1000,6000,
+  "Travel and accommodation support: other speakers", 4, 1500,6000,
+  "Total", NA, NA,24200,
+) |>
+  kable(booktabs = TRUE, caption = "Estimated budget") |>
+  kable_classic() |> 
+  kable_styling(latex_options = "HOLD_position")
+```
+
+The registration fee could be free speakers.
+
+We expect to have $4200 income from the workshop fee, therefore	we are requesting a grant of $20,000 from the IIF towards the costs of the running this workshop.
+
+## Entry requirements
+
+The workshop is aimed at Ph.D. students, researchers and practitioners within forecasting who are already using open-source for basic forecasting and who would like to start using ope-source for forecasting at a more advanced level. In order for potential participants to benefit the most, they should consider themselves eligible if you are comfortable with reading and transforming data, installing and using third-party packages and plotting using standard R graphics and being familiar with principles of forecasting.
+
+We offer places for participants from all over the world.
+
+We can accommodate ~40 participants. Selection criteria include correct entry requirements, motivation to attend the course as well as gender and geographical balance.
 
 ## Program
 
 ### Keynote speakers
 
 - Max Kuhn
-- Who else
+- Rob J Hyndman
+- anyone else
 
 ### 24 June 2024
 
@@ -146,35 +181,7 @@ Furthermore, we introduce daily open discussion sessions on "open problems." The
 - 3.30pm – 5.00pm. 2 presenters
 
 
-## Entry requirements
 
-The workshop is aimed at Ph.D. students, researchers and practitioners within forecasting who are already using open-source for basic forecasting and who would like to start using ope-source for forecasting at a more advanced level. In order for potential participants to benefit the most, they should consider themselves eligible if you are comfortable with reading and transforming data, installing and using third-party packages and plotting using standard R graphics and being familiar with principles of forecasting.
-
-We offer places for participants from all over the world.
-
-We can accommodate ~40 participants. Selection criteria include correct entry requirements, motivation to attend the course as well as gender and geographical balance.
-
-
-## Budget
-
-The registration fee would be free speakers.
-
-```{r budget, echo=FALSE}
-library(kableExtra)
-tibble::tribble(
-  ~Expense, ~Number,~`Unit Price`,~Total,
-  "Catering", 40, 120,4800,
-  "Galla Dinner", 40, 60,2400,
-  "Travel and accommodation support: European speakers", 10, 500,5000,
-  "Travel and accommodation support: European speakers", 6, 1000,6000,
-  "Travel and accommodation support: other speakers", 4, 1500,6000,
-  "Total", NA, NA,24200,
-) |>
-  kable(booktabs = TRUE) |>
-  kable_classic()
-```
-
-We expect to have $5000 income from the workshop fee, therefore	we are requesting a grant of $19,200 from the IIF towards the costs of the running this workshop.
 
 ## Potential list of participants
 
