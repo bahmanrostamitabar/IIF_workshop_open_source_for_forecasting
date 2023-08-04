@@ -41,7 +41,7 @@ tibble::tribble(
 
 - Bahman Rostami-Tabar, Associate Professor in Data and Managemet Science, Cardiff University UK.
 - Ivan Svetunkov, Lecturer of Marketing Analytics, Lancaster University, UK.
-- Resul Akay, PhD student, University of Vienna \& CEO of Quantics.io, Austria.
+- Resul Akay, Head of Data Science at Quantics.io, Austria.
 - Shanika Wickramasuriya, Lecturer in Statistics, University of Auckland, New Zealand.
 - Azul Garza, CTO & Co-Founde, Nixtla, Mexico.
 - Mitchell O'Hara-Wild, PhD student in Econometrics, Monash University,Australia.
