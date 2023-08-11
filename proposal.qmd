@@ -39,7 +39,7 @@ tibble::tribble(
 
 ## Organizing committee
 
-- Bahman Rostami-Tabar, Associate Professor in Data and Managemet Science, Cardiff University UK.
+- Bahman Rostami-Tabar, Associate Professor in Data and Management Science, Cardiff University UK.
 - Ivan Svetunkov, Lecturer of Marketing Analytics, Lancaster University, UK.
 - Resul Akay, Head of Data Science at Quantics.io, Austria.
 - Shanika Wickramasuriya, Lecturer in Statistics, University of Auckland, New Zealand.
@@ -119,6 +119,8 @@ We can accommodate ~40 participants. Selection criteria include correct entry re
 - Max Kuhn
 - Rob J Hyndman
 - anyone else
+- Posit
+- Amazon 
 
 ### 24 June 2024
 
@@ -179,8 +181,6 @@ We can accommodate ~40 participants. Selection criteria include correct entry re
 - 1.30pm – 3.00pm. 2 presenters
 - 3.00pm – 3.30pm. Afternoon tea
 - 3.30pm – 5.00pm. 2 presenters
-
-
 
 
 ## Potential list of participants

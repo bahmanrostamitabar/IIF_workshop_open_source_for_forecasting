@@ -2,23 +2,15 @@ Roles and responsibilities:
 
 General chair: Bahman Rostami-Tabar
 
-Tutorials:
+Tutorials: Resul Akay
 
-Finance & budget:
+Finance & budget: Bahman Rostami-Tabar
 
-Schedule:
+Schedule: ?Ivan Svetunkov
 
-Website:
+Website: Mitchell O'Hara-Wild
 
-Submission & review:
-
-
-Ivan Svetunkov
-
-Resul Akay
-
-Shanika Wickramasuriya
+Submission & review: Shanika Wickramasuriya
 
 Azul Garza
 
-Mitchell O'Hara-Wild
