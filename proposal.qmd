@@ -14,8 +14,8 @@ options(knitr.kable.NA = '')
 tibble::tribble(
   ~a, ~b,
   "Proposed date", "24-28 June 2023",
-  "Venue", "TBC (University of Montpelier, France or Cardiff University UK)",
-  "Number of expected participants", "40",
+  "Venue", "TBC (University of Montpelier, France or Cardiff University, UK)",
+  "Number of expected participants", "50",
   "Travel and accommodation support",	"for 15 participants"
 ) |>
   kable(col.names = NULL, booktabs = TRUE, caption = "Summary") |>
@@ -53,7 +53,7 @@ During this 5-day workshop, our focus will be on exploring the most recent advan
 
 ## Key features of the workshop
 
-- This workshop aims to bring together approximately 40 participants, including both authors and users of forecasting software packages, from academia and practical fields. This diverse gathering will create an ideal platform for knowledge exchange and valuable insights.
+- This workshop aims to bring together approximately 50 participants, including both authors and users of forecasting software packages, from academia and practical fields. This diverse gathering will create an ideal platform for knowledge exchange and valuable insights.
 
 - Participants will gain valuable insights into the latest advancements in open-source forecasting tools and how these innovations can support forecasting methodology and enhance decision-making processes.
 
@@ -69,7 +69,7 @@ We will design the workshop to span five full days and feature 22 distinguished 
 
 In addition to the informative presentations, we plan to conduct engaging tutorials that cater to specific forecasting challenges. These hands-on tutorials will provide participants with practical experience in using open-source software for addressing real-world problems in forecasting.
 
-Furthermore, we introduce daily open discussion sessions on "open problems." These sessions aim to explore the challenges and issues currently faced by participants, fostering an environment for collective brainstorming. By encouraging discussions around these open problems, we hope to inspire future research and collaborative efforts in the domain of open-source forecasting software.
+Furthermore, we introduce open discussion sessions on "open problems and latest developments." These sessions aim to explore the challenges and issues currently faced by participants, fostering an environment for collective brainstorming. By encouraging discussions around these open problems, we hope to inspire future research and collaborative efforts in the domain of open-source forecasting software.
 
 ## Workshop topics
 
@@ -79,7 +79,7 @@ Furthermore, we introduce daily open discussion sessions on "open problems." The
 - Reproducible forecasting workflow
 - Communicating uncertainty in forecasting
 - Future developments in open-source for forecasting
-- More topics
+
 
 ## Budget
 
@@ -88,12 +88,12 @@ Furthermore, we introduce daily open discussion sessions on "open problems." The
 library(kableExtra)
 tibble::tribble(
   ~Expense, ~Number,~`Unit Price`,~Total,
-  "Catering", 40, 120,4800,
-  "Galla Dinner", 40, 60,2400,
+  "Catering", 50, 120,6000,
+  "Galla Dinner", 50, 60,3000,
   "Travel and accommodation support: European speakers", 10, 500,5000,
   "Travel and accommodation support: European speakers", 6, 1000,6000,
   "Travel and accommodation support: other speakers", 4, 1500,6000,
-  "Total", NA, NA,24200,
+  "Total", NA, NA,26000,
 ) |>
   kable(booktabs = TRUE, caption = "Estimated budget") |>
   kable_classic() |> 
@@ -102,7 +102,7 @@ tibble::tribble(
 
 The registration fee could be free speakers.
 
-We expect to have $4200 income from the workshop fee, therefore	we are requesting a grant of $20,000 from the IIF towards the costs of the running this workshop.
+We expect to have $6000 income from the workshop fee, therefore	we are requesting a grant of $20,000 from the IIF towards the costs of the running this workshop.
 
 ## Entry requirements
 
@@ -110,7 +110,7 @@ The workshop is aimed at Ph.D. students, researchers and practitioners within fo
 
 We offer places for participants from all over the world.
 
-We can accommodate ~40 participants. Selection criteria include correct entry requirements, motivation to attend the course as well as gender and geographical balance.
+We can accommodate ~50 participants. Selection criteria include correct entry requirements, motivation to attend the course as well as gender and geographical balance.
 
 ## Program
 
