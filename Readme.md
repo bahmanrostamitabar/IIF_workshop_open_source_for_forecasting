@@ -2,7 +2,7 @@ Roles and responsibilities:
 
 General chair: Bahman Rostami-Tabar
 
-Tutorials: Resul Akay
+Tutorials: Resul Akay & Azul Garza
 
 Finance & budget: Bahman Rostami-Tabar
 
@@ -12,5 +12,5 @@ Website: Mitchell O'Hara-Wild
 
 Submission & review: Shanika Wickramasuriya
 
-Azul Garza
+
 
