@@ -74,11 +74,17 @@ Furthermore, we introduce open discussion sessions on "open problems and latest 
 ## Workshop topics
 
 - Open-source software design
-- Forecasting applications
+- Forecasting applications 
 - Machine learning and AI approaches
 - Reproducible forecasting workflow
 - Communicating uncertainty in forecasting
 - Future developments in open-source for forecasting
+- Visualising time series data
+- Forecasting with Exponential Smoothing
+- Count data and intermittent time series forecasting
+- Forecasting high frequency data
+- Forecasting and decision impact
+
 
 
 ## Budget
@@ -114,13 +120,13 @@ We can accommodate ~50 participants. Selection criteria include correct entry re
 
 ## Program
 
-### Keynote speakers
+### Potential Keynote speakers
 
 - Max Kuhn
 - Rob J Hyndman
-- anyone else
-- Posit
-- Amazon 
+- Nikos Kourentzes
+- Stephan Kolassa
+- Zeynep Erkin Baz
 
 ### 24 June 2024
 
@@ -185,4 +191,4 @@ We can accommodate ~50 participants. Selection criteria include correct entry re
 
 ## Potential list of participants
 
-1. Rob J. Hyndman, 2. Ivan Svetunkov, 3. Bahman Rostami-Tabar 3. Mitchell O'Hara-Wild (ECR), 4. Tobiac Liboschik, 5. Daniele Girolimetto (ECR), 6. Dario Azzimonti, 7. Nickalus Redell, 8. Ronit Jaiswal. 9. Angelo Canty, 10. Jeffrey A. Ryan, 11. Paul-Christian Bürkner, 12. Mingzhi Shi (ECR), 13. Harsha Charma (ECR), 14. Resul Akay, 15.
+1. Rob J. Hyndman, 2. Ivan Svetunkov, 3. Bahman Rostami-Tabar 3. Mitchell O'Hara-Wild (ECR), 4. Tobiac Liboschik, 5. Daniele Girolimetto (ECR), 6. Dario Azzimonti, 7. Nickalus Redell, 8. Ronit Jaiswal. 9. Angelo Canty, 10. Jeffrey A. Ryan, 11. Paul-Christian Bürkner, 12. Mingzhi Shi (ECR), 13. Harsha Charma (ECR), 14. Resul Akay, 15. Dilini Talagala, 16. Thiyanga Talagala, 17. Pablo Montero Manso, 18. Christoph Bergmeir, 19. Zeynep Erkin Baz, 20. Puwasala Gamakumara, 21. Nikos Kourentzes, 22. Stephan Kolassa, 23. Sven Crone, 24. Oliver Schaer
