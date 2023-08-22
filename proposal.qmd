@@ -1,11 +1,11 @@
 ---
-title: "Proposal for an IIF workshop on Open Source for Forecasting"
+title: "Proposal for an IIF workshop on Open Source Forecasting Software"
 format:
   memo-pdf:
     fig-pos: 'H'
 ---
 
-In the field of forecasting, the use of open-source software such as R, Python, and Julia has become increasingly dominant throughout the entire forecasting workflow. These tools have played a pivotal role in democratizing access to advanced forecasting capabilities. To capitalize on the potential of these open-source solutions, we are delighted to propose a dynamic and enriching IIF sponsored workshop on open-source software for forecasting to be held on June 24-28, 2023.
+In the field of forecasting, the use of open-source software such as R, Python, and Julia has become increasingly dominant throughout the entire forecasting workflow. These tools have played a pivotal role in democratizing access to advanced forecasting capabilities. To capitalize on the potential of these open-source solutions, we are delighted to propose a dynamic and enriching IIF sponsored workshop on open-source software for forecasting to be held on June 24-28, 2023, at the University of Montpelier, France.
 
 
 ```{r label, echo=FALSE, fig.pos='H'}
@@ -14,7 +14,7 @@ options(knitr.kable.NA = '')
 tibble::tribble(
   ~a, ~b,
   "Proposed date", "24-28 June 2023",
-  "Venue", "TBC (University of Montpelier, France or Cardiff University, UK)",
+  "Venue", "University of Montpelier, France",
   "Number of expected participants", "50",
   "Travel and accommodation support",	"for 15 participants"
 ) |>
@@ -36,7 +36,6 @@ tibble::tribble(
 ```
 
 
-
 ## Organizing committee
 
 - Bahman Rostami-Tabar, Associate Professor in Data and Management Science, Cardiff University UK.
@@ -44,7 +43,7 @@ tibble::tribble(
 - Resul Akay, Head of Data Science at Quantics.io, Austria.
 - Shanika Wickramasuriya, Lecturer in Statistics, University of Auckland, New Zealand.
 - Azul Garza, CTO & Co-Founde, Nixtla, Mexico.
-- Mitchell O'Hara-Wild, PhD student in Econometrics, Monash University,Australia.
+- Mitchell O'Hara-Wild, PhD student in Econometrics, Monash University, Australia.
 
 
 ## Workshop aim
@@ -127,6 +126,8 @@ We can accommodate ~50 participants. Selection criteria include correct entry re
 - Nikos Kourentzes
 - Stephan Kolassa
 - Zeynep Erkin Baz
+- Jan Gasthaus
+- Max Mergenthaler
 
 ### 24 June 2024
 
@@ -191,4 +192,4 @@ We can accommodate ~50 participants. Selection criteria include correct entry re
 
 ## Potential list of participants
 
-1. Rob J. Hyndman, 2. Ivan Svetunkov, 3. Bahman Rostami-Tabar 3. Mitchell O'Hara-Wild (ECR), 4. Tobiac Liboschik, 5. Daniele Girolimetto (ECR), 6. Dario Azzimonti, 7. Nickalus Redell, 8. Ronit Jaiswal. 9. Angelo Canty, 10. Jeffrey A. Ryan, 11. Paul-Christian Bürkner, 12. Mingzhi Shi (ECR), 13. Harsha Charma (ECR), 14. Resul Akay, 15. Dilini Talagala, 16. Thiyanga Talagala, 17. Pablo Montero Manso, 18. Christoph Bergmeir, 19. Zeynep Erkin Baz, 20. Puwasala Gamakumara, 21. Nikos Kourentzes, 22. Stephan Kolassa, 23. Sven Crone, 24. Oliver Schaer
+1. Rob J. Hyndman, 2. Ivan Svetunkov, 3. Bahman Rostami-Tabar 3. Mitchell O'Hara-Wild (ECR), 4. Tobiac Liboschik, 5. Daniele Girolimetto (ECR), 6. Dario Azzimonti, 7. Nickalus Redell, 8. Ronit Jaiswal. 9. Angelo Canty, 10. Jeffrey A. Ryan, 11. Paul-Christian Bürkner, 12. Mingzhi Shi (ECR), 13. Harsha Charma (ECR), 14. Resul Akay, 15. Dilini Talagala, 16. Thiyanga Talagala, 17. Pablo Montero Manso, 18. Christoph Bergmeir, 19. Zeynep Erkin Baz, 20. Puwasala Gamakumara, 21. Nikos Kourentzes, 22. Stephan Kolassa, 23. Sven Crone, 24. Oliver Schaer, 25. Tim Januschowski, 26. Anastasios Panagiotelis, 27. Syama Rangapuram, 28. Xiaoqian Wang, 29. Jan Gasthaus, 30. Shanika Wickramasuriya, 31. Azul Garza, 32. Max Mergenthaler, 33. Resul Akay, 34. Mahdi Abolghasemi (ECR), 35. Jethro Browell, 36. Dejan Mircetic (ECR), 37. Earo Wang, 38. Matt Dancho, 39. Galit Shmueli, 40. Florian Ziel, 41. Asael Alonzo Matamoros, 42. Sasan Barak, 43. Fotios Petropoulos, 44. Kandrika Pritularga, 45. Devon K. Barrow, 46. George Athanasopoulos, 47. Marco Peixeiro, 48. Alexander Alexandrov, 49. Rebecca Killick, 50. Oleksandr Shchur.
