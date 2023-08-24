@@ -52,21 +52,21 @@ During this 5-day workshop, our focus will be on exploring the most recent advan
 
 ## Key features of the workshop
 
-- This workshop aims to bring together approximately 50 participants, including both authors and users of forecasting software packages, from academia and practical fields. This diverse gathering will create an ideal platform for knowledge exchange and valuable insights.
+- This workshop aims to bring together approximately 50 participants, including both authors and users of forecasting software packages, from academia and practical fields. This diverse gathering will create an ideal platform for exchanging knowledge and gaining valuable insights.
 
-- Participants will gain valuable insights into the latest advancements in open-source forecasting tools and how these innovations can support forecasting methodology and enhance decision-making processes.
+- Participants will acquire in-depth understanding of the latest advancements in open-source forecasting tools and how these innovations can support forecasting methodologies and enhance decision-making processes.
 
 - Engaging tutorials will be delivered on advanced topics related to forecasting. Through hands-on sessions, participants will have the opportunity to apply their learning to real-world scenarios.
 
 - The workshop seeks to foster a collaborative environment that encourages research and software development partnerships among attendees.
 
-- Networking sessions will encourage lively discussions and provide a platform for participants to share their experiences, challenges, and success stories.
+- Networking sessions will facilitate lively discussions and provide a platform for participants to share their experiences, challenges, and success stories.
 
 ## Workshop format
 
-We will design the workshop to span five full days and feature 22 distinguished speakers and 8 tutorials from both academia and industry. Our presenters will represent a diverse range of experience and background, including senior professors, PhD students, diverse gender and socio-economic backgrounds.
+We will design the workshop to span five full days, featuring 22 distinguished speakers and 8 tutorials from both academia and industry. Our presenters will represent a diverse range of experience and backgrounds, including senior professors, PhD students, and practitioners from diverse gender and socio-economic backgrounds.
 
-In addition to the informative presentations, we plan to conduct engaging tutorials that cater to specific forecasting challenges. These hands-on tutorials will provide participants with practical experience in using open-source software for addressing real-world problems in forecasting.
+In addition to the informative presentations, we plan to conduct engaging tutorials that cater to specific forecasting challenges. These hands-on tutorials will provide participants with practical experience in using open-source software to address real-world forecasting problems.
 
 Furthermore, we introduce open discussion sessions on "open problems and latest developments." These sessions aim to explore the challenges and issues currently faced by participants, fostering an environment for collective brainstorming. By encouraging discussions around these open problems, we hope to inspire future research and collaborative efforts in the domain of open-source forecasting software.
 
@@ -107,11 +107,11 @@ tibble::tribble(
 
 The registration fee could be free speakers.
 
-We expect to have $6000 income from the workshop fee, therefore	we are requesting a grant of $20,000 from the IIF towards the costs of the running this workshop.
+We expect to have \$6,000 income from the workshop fee, therefore	we are requesting a grant of \$20,000 from the IIF towards the costs of the running this workshop.
 
 ## Entry requirements
 
-The workshop is aimed at Ph.D. students, researchers and practitioners within forecasting who are already using open-source for basic forecasting and who would like to start using ope-source for forecasting at a more advanced level. For potential participants to benefit the most, they should consider themselves eligible if you are comfortable with reading and transforming data, installing and using third-party packages and plotting using standard R graphics and being familiar with forecasting principles.
+The workshop is aimed at Ph.D. students, researchers and practitioners in the field of forecasting who are already using open-source tools for basic forecasting and are interested in open-source for forecasting at a more advanced level. For potential participants to benefit the most, they should consider themselves eligible if they are comfortable with reading and transforming data, installing and using third-party packages, creating visualizations using standard plotting libraries, and being familiar with forecasting principles.
 
 We offer places for participants from all over the world.
 
@@ -130,6 +130,7 @@ We can accommodate ~50 participants. Selection criteria include correct entry re
 - Max Mergenthaler
 - Sean Taylor
 - Jonathan Farland
+- GluonTS team
 
 ### 24 June 2024
 
