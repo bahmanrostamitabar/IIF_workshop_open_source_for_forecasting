@@ -1,0 +1,183 @@
+---
+title: "A summer school on Open Source Forecasting Software"
+format:
+  memo-pdf:
+    fig-pos: 'H'
+---
+
+In the field of forecasting, the use of open-source software such as R, Python, and Julia has become increasingly dominant throughout the entire forecasting workflow. These tools have played a pivotal role in democratizing access to advanced forecasting capabilities. To capitalize on the potential of these open-source solutions, we are delighted to propose a dynamic and enriching workshop on open-source software for forecasting to be held on June 24-28, 2023, at the University of Montpelier, France (TBC).
+
+
+```{r label, echo=FALSE, fig.pos='H'}
+library(kableExtra)
+options(knitr.kable.NA = '')
+tibble::tribble(
+  ~a, ~b,
+  "Proposed date", "24-28 June 2023",
+  "Venue", "University of Montpelier, France (TBC)",
+  "Number of expected participants", "50",
+  "Travel and accommodation support",	"for 15 participants"
+) |>
+  kable(col.names = NULL, booktabs = TRUE, caption = "Summary") |>
+  kable_classic() |> 
+  kable_styling(latex_options = "HOLD_position")
+```
+
+
+## Organizing committee
+
+- Bahman Rostami-Tabar, Associate Professor in Data-Driven Decision Science, Cardiff University UK.
+- Ivan Svetunkov, Lecturer of Marketing Analytics, Lancaster University, UK.
+- Resul Akay, Head of Data Science at Quantics.io, Austria.
+- Shanika Wickramasuriya, Lecturer in Statistics, University of Auckland, New Zealand.
+- Azul Garza, CTO & Co-Founde, Nixtla, Mexico.
+- Mitchell O'Hara-Wild, PhD student in Econometrics, Monash University, Australia.
+
+
+## Workshop aim
+
+During this 5-day workshop, our focus will be on exploring the most recent advancements and advanced capabilities within open-source forecasting software. Furthermore, we will engage in discussions about the future possibilities of these tools. Our main goal is to empower participants by enhancing their skill-sets and providing a deeper understanding of the current opportunities. Through fostering conversations on best practices, and recognizing potential areas for improvement, we aim to facilitate research collaboration and foster partnerships with open-source software developers.
+
+## Key features of the workshop
+
+- This workshop aims to bring together approximately 50 participants, including both authors and users of forecasting software packages, from academia and practical fields. This diverse gathering will create an ideal platform for knowledge exchange and valuable insights.
+
+- Participants will gain valuable insights into the latest advancements in open-source forecasting tools and how these innovations can support forecasting methodology and enhance decision-making processes.
+
+- Engaging tutorials will be delivered on advanced topics related to forecasting. Through hands-on sessions, participants will have the opportunity to apply their learning to real-world scenarios.
+
+- The workshop seeks to foster a collaborative environment that encourages research and software development partnerships among attendees.
+
+- Networking sessions will encourage lively discussions and provide a platform for participants to share their experiences, challenges, and success stories.
+
+## Workshop format
+
+We will design the workshop to span five full days and feature 22 distinguished speakers and 8 tutorials from both academia and industry. Our presenters will represent a diverse range of experience and background, including senior professors, PhD students, diverse gender and socio-economic backgrounds.
+
+In addition to the informative presentations, we plan to conduct engaging tutorials that cater to specific forecasting challenges. These hands-on tutorials will provide participants with practical experience in using open-source software for addressing real-world problems in forecasting.
+
+Furthermore, we introduce open discussion sessions on "open problems and latest developments." These sessions aim to explore the challenges and issues currently faced by participants, fostering an environment for collective brainstorming. By encouraging discussions around these open problems, we hope to inspire future research and collaborative efforts in the domain of open-source forecasting software.
+
+## Workshop topics
+
+- Open-source software design
+- Forecasting applications 
+- Machine learning and AI approaches
+- Reproducible forecasting workflow
+- Communicating uncertainty in forecasting
+- Future developments in open-source for forecasting
+- Visualising time series data
+- Forecasting with Exponential Smoothing
+- Count data and intermittent time series forecasting
+- Forecasting high frequency data
+- Forecasting and decision impact
+
+
+
+## Budget
+
+
+```{r budget, echo=FALSE, fig.pos="H"}
+library(kableExtra)
+tibble::tribble(
+  ~Expense, ~Number,~`Unit Price`,~Total,
+  "Catering", 50, 120,6000,
+  "Galla Dinner", 50, 60,3000,
+  "Travel and accommodation support: European speakers", 10, 500,5000,
+  "Travel and accommodation support: European speakers", 6, 1000,6000,
+  "Travel and accommodation support: other speakers", 4, 1500,6000,
+  "Total", NA, NA,26000,
+) |>
+  kable(booktabs = TRUE, caption = "Estimated budget (US dollar)") |>
+  kable_classic() |> 
+  kable_styling(latex_options = "HOLD_position")
+```
+
+The registration fee could be free if we secure the required funding.
+
+We expect to have $6000 from other funding sources, therefore	we are requesting a grant of $20,000 from the International Institute of Forecasters (IIF) towards the costs of the running this workshop.
+
+## Entry requirements
+
+The workshop is aimed at Ph.D. students, researchers and practitioners within forecasting who are already using open-source for basic forecasting and who would like to start using ope-source for forecasting at a more advanced level. In order for potential participants to benefit the most, they should consider themselves eligible if you are comfortable with reading and transforming data, installing and using third-party packages and plotting using standard R graphics and being familiar with principles of forecasting.
+
+We offer places for participants from all over the world.
+
+We can accommodate ~50 participants. Selection criteria include correct entry requirements, motivation to attend the course as well as gender and geographical balance.
+
+## Program
+
+### Potential Keynote speakers
+
+- Max Kuhn, RStudio.
+- Rob J Hyndman. Monash University.
+- Rebecca Killick, University of Lancaster.
+- Stephan Kolassa, SAP.
+- Zeynep Erkin Baz, Meta.
+- Jan Gasthaus, Amazon.
+- Max Mergenthaler, Nixtla.
+
+### 24 June 2024
+
+**Forecasting workflow and open-source software packages**
+
+- 9.30am – 10.30am. Keynote 1
+- 10.30am – 11.00am. Morning tea
+- 11.00am – 12.30pm. 2 presenters
+- 12.30pm – 1.30pm. Lunch
+- 1.30pm – 3.00pm. 2 presenters
+- 3.00pm – 3.30pm. Afternoon tea
+- 3.30pm – 5.00pm. 2 presenters
+
+### 25 June 2024
+
+**Advanced topics**
+
+- 9.30am – 10.30am. Keynote 2
+- 10.30am – 11.00am. Morning tea
+- 11.00am – 12.30pm. 2 presenters
+- 12.30pm – 1.30pm. Lunch
+- 1.30pm – 3.00pm. 2 presenters
+- 3.00pm – 3.30pm. Afternoon tea
+- 3.30pm – 5.00pm. 2 presenters
+
+### 26 June 2024
+
+**Tutorial 1**
+
+- 9.00am – 10.30am. tutorial 1
+- 10.30am – 11.00am. Morning tea
+- 11.00am – 12.30pm. tutorial 2
+- 12.30pm – 1.30pm. Lunch
+- 1.30pm – 3.00pm. tutorial 3
+- 3.00pm – 3.30pm. Afternoon tea
+- 3.30pm – 5.00pm. tutorial 4
+
+### 27 June 2024
+
+**Tutorial 2**
+
+- 9.00am – 10.30am. tutorial 5
+- 10.30am – 11.00am. Morning tea
+- 11.00am – 12.30pm. tutorial 6
+- 12.30pm – 1.30pm. Lunch
+- 1.30pm – 3.00pm. tutorial 7
+- 3.00pm – 3.30pm. Afternoon tea
+- 3.30pm – 5.00pm. tutorial 8
+
+### 28 June 2024
+
+**Open problems and future developments**
+
+- 9.00am – 10.30am. 2 presenters
+- 10.30am – 11.00am. Morning tea
+- 11.00am – 12.30pm. 2 presenters
+- 12.30pm – 1.30pm. Lunch
+- 1.30pm – 3.00pm. 2 presenters
+- 3.00pm – 3.30pm. Afternoon tea
+- 3.30pm – 5.00pm. 2 presenters
+
+
+## Potential list of participants
+
+1. Rob J. Hyndman, 2. Ivan Svetunkov, 3. Bahman Rostami-Tabar 3. Mitchell O'Hara-Wild (ECR), 4. Tobiac Liboschik, 5. Daniele Girolimetto (ECR), 6. Dario Azzimonti, 7. Nickalus Redell, 8. Ronit Jaiswal. 9. Angelo Canty, 10. Jeffrey A. Ryan, 11. Paul-Christian Bürkner, 12. Mingzhi Shi (ECR), 13. Harsha Charma (ECR), 14. Resul Akay, 15. Dilini Talagala, 16. Thiyanga Talagala, 17. Pablo Montero Manso, 18. Christoph Bergmeir, 19. Zeynep Erkin Baz, 20. Puwasala Gamakumara, 21. Nikos Kourentzes, 22. Stephan Kolassa, 23. Sven Crone, 24. Oliver Schaer, 25. Tim Januschowski, 26. Anastasios Panagiotelis, 27. Syama Rangapuram, 28. Xiaoqian Wang, 29. Jan Gasthaus, 30. Shanika Wickramasuriya, 31. Azul Garza, 32. Max Mergenthaler, 33. Resul Akay, 34. Mahdi Abolghasemi (ECR), 35. Jethro Browell, 36. Dejan Mircetic (ECR), 37. Earo Wang, 38. Matt Dancho, 39. Galit Shmueli, 40. Florian Ziel, 41. Asael Alonzo Matamoros, 42. Sasan Barak, 43. Fotios Petropoulos, 44. Kandrika Pritularga, 45. Devon K. Barrow, 46. George Athanasopoulos, 47. Marco Peixeiro, 48. Alexander Alexandrov, 49. Rebecca Killick, 50. Oleksandr Shchur.
