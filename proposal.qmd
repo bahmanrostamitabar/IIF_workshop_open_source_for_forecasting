@@ -42,7 +42,7 @@ tibble::tribble(
 - Ivan Svetunkov, Lecturer of Marketing Analytics, Lancaster University, UK.
 - Resul Akay, Head of Data Science at Quantics.io, Austria.
 - Shanika Wickramasuriya, Lecturer in Statistics, University of Auckland, New Zealand.
-- Azul Garza, CTO & Co-Founde, Nixtla, Mexico.
+- Azul Garza, CTO & Co-Founder, Nixtla, Mexico.
 - Mitchell O'Hara-Wild, PhD student in Econometrics, Monash University, Australia.
 
 
@@ -81,7 +81,7 @@ Furthermore, we introduce open discussion sessions on "open problems and latest 
 - Visualising time series data
 - Forecasting with Exponential Smoothing
 - Count data and intermittent time series forecasting
-- Forecasting high frequency data
+- Forecasting high-frequency data
 - Forecasting and decision impact
 
 
@@ -111,11 +111,11 @@ We expect to have $6000 income from the workshop fee, therefore	we are requestin
 
 ## Entry requirements
 
-The workshop is aimed at Ph.D. students, researchers and practitioners within forecasting who are already using open-source for basic forecasting and who would like to start using ope-source for forecasting at a more advanced level. In order for potential participants to benefit the most, they should consider themselves eligible if you are comfortable with reading and transforming data, installing and using third-party packages and plotting using standard R graphics and being familiar with principles of forecasting.
+The workshop is aimed at Ph.D. students, researchers and practitioners within forecasting who are already using open-source for basic forecasting and who would like to start using ope-source for forecasting at a more advanced level. For potential participants to benefit the most, they should consider themselves eligible if you are comfortable with reading and transforming data, installing and using third-party packages and plotting using standard R graphics and being familiar with forecasting principles.
 
 We offer places for participants from all over the world.
 
-We can accommodate ~50 participants. Selection criteria include correct entry requirements, motivation to attend the course as well as gender and geographical balance.
+We can accommodate ~50 participants. Selection criteria include correct entry requirements, motivation to attend the course, and gender and geographical balance.
 
 ## Program
 
@@ -128,6 +128,8 @@ We can accommodate ~50 participants. Selection criteria include correct entry re
 - Zeynep Erkin Baz
 - Jan Gasthaus
 - Max Mergenthaler
+- Sean Taylor
+- Jonathan Farland
 
 ### 24 June 2024
 
