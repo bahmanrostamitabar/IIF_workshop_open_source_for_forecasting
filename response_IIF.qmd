@@ -1,0 +1,26 @@
+---
+title: "Response - Proposal for an IIF workshop on Open Source Forecasting Software"
+format:
+  memo-pdf:
+    fig-pos: 'H'
+---
+
+_Comment 1: Budget: 20k is a big ask and I don't think we can support this currently. 10k is more in line with what we can support._
+
+Response:
+
+
+
+_Comment 2: Format/Content: we believe it to be challenging to find the right level of content. If it's about "how to forecast with Julia/Jax/R/Rust/etc" or "here's what we do at BigCompany and it's also open source" both topics would be somewhat hard to find the right audience. Especially the latter is probably best served at ISF -- maybe have a dedicated workshop on this around ISF? For a standalone workshop we would need to bring folks from all kinds of geographic backgrounds together to one place and I'm not sure if they'd be willing to do this and how expensive that would be. Virtual doesn't have the same kind of energy of course, I understand that. 5 days is a long time._
+
+Response:
+
+
+
+_Comment 3: Invitees: the workshop is a wonderful opportunity to reach out to folks not as close to the IIF who are active in forecasting (and who we'd like to see interacting closer with us). Hugging Face, LinkedIn (greykite), SalesForce (Merlion), Alibaba, sktime, and others should be there on the one hand and other, more "vendors" like type (SAP, SAS) would be somewhat harder unless they have a clear mandate to also talk about open source. Do we have a list of the most popular forecasting open source initiatives (e.g., by package downloads or github stars) and a means to reach out to them? The current list of invitees reads good, but I'm lacking a systematic approach here. Another systematic way would be to think about the different programming languages/paradigms and see if we have coverage on them (R, python, etc)?_
+
+Response:
+
+_Comment 4: Additional suggestions: the Journal of Machine Learning Research has a track on open source software. Pierre is open to having a special section on open source software for forecasting in the IJF, but this needs further discussion._
+
+Response:

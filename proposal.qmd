@@ -123,7 +123,6 @@ We can accommodate ~50 participants. Selection criteria include correct entry re
 
 - Max Kuhn
 - Rob J Hyndman
-- Nikos Kourentzes
 - Stephan Kolassa
 - Zeynep Erkin Baz
 - Jan Gasthaus
